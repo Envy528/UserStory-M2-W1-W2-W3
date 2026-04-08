@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Jorge Carmona's Portfolio">
+    <meta name="keywords" content="Jorge Carmona, Portfolio">
+    <meta name="author" content="Jorge Carmona">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Carmona's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jorge Carmona</h1>
+        <nav>
+            <a href="#aboutMe">About Me</a>
+            <a href="#proyects">Proyects</a>
+            <a href="contact">Contact</a>
+            <a href="mascotas.html">Pets</a>
+        </nav>
+    </header>
+    <!--About Me Section-->
+    <section>
+        <h2 id="aboutMe">About me</h2>
+        <p>I'm Jorge Carmona, I'm 20 years old and I'm a coding student at Riwi and a mechatronics engineer student at <abbr title="Instituto Universitario de Barranquilla">IUB</abbr>. I'm passionate about technology, cinema, music and animals</p>
+    </section>
+    <hr>
+    <!--Proyect Section-->
+    <section>
+        <h2 id="proyects">Proyects</h2>
+        <ul>
+            <li><a href="https://github.com/Envy528/Calculator">Basic Python Calculator</a></li>
+            <li><a href="https://github.com/Envy528/mi-pagina-web">My first Web Page</a></li>
+            <li><a href="https://github.com/Envy528/studentGrades_Riwi">Student's Grades Program</a></li>
+        </ul>
+    </section>
+    <hr>
+    <!--Contact Section-->
+    <section>
+        <h2 id="contact">Contact</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="JohnDoe@gmail.com" required>
+
+            <br><br>
+
+            <label for="message">Reason of contact</label><br>
+            <textarea name="message" id="message" required></textarea>
+        
+        </form>
+    </section>
+</body>
+</html>
