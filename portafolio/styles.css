@@ -1,0 +1,80 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color:rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    border-bottom: 3px double;
+    padding-bottom: 10px;
+    margin: 0% 30%;
+    text-align: center
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gold;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+
+    margin: 3% 3% 0% 35%;
+    border: 2px outset ;
+
+}
+
+section h2{
+    text-align: center;
+    margin: 10px 0px;
+}
+section p, u    l, li {
+    margin: 0px 10px 10px 10px
+}
+
+label{
+    display:block;
+    margin: 10px 0px 0px 10px;
+    font-weight: bold;
+}
+
+textarea, input{
+    width: 50%;
+    margin: 5px 10px;
+}
+
+button{
+    display: block;
+    margin: 10px;
+    padding: 2% 10%;
+    margin-left: 10px;
+}
+
+img{
+    display: block;
+    margin-left: 25%;
+    margin-top: 10px;
+
+    height: auto;
+    width: 15em;
+
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+article{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
