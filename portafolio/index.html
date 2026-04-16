@@ -19,37 +19,40 @@
             <a href="mascotas.html">Pets</a>
         </nav>
     </header>
-    <!--About Me Section-->
-    <section>
-        <h2 id="aboutMe">About me</h2>
-        <p>I'm Jorge Carmona, I'm 20 years old and I'm a coding student at Riwi and a mechatronics engineer student at <abbr title="Instituto Universitario de Barranquilla">IUB</abbr>. I'm passionate about technology, cinema, music and animals</p>
-    </section>
 
-    <!--Proyect Section-->
-    <section>
-        <h2 id="proyects">Proyects</h2>
-        <ul>
-            <li><a href="https://github.com/Envy528/Calculator">Basic Python Calculator</a></li>
-            <li><a href="https://github.com/Envy528/mi-pagina-web">My first Web Page</a></li>
-            <li><a href="https://github.com/Envy528/studentGrades_Riwi">Student's Grades Program</a></li>
-        </ul>
-    </section>
+    <main>
+        <!--About Me Section-->
+        <section class="container">
+            <h2 id="aboutMe">About me</h2>
+            <p>I'm Jorge Carmona, I'm 20 years old and I'm a coding student at Riwi and a mechatronics engineer student at <abbr title="Instituto Universitario de Barranquilla">IUB</abbr>. I'm passionate about technology, cinema, music and animals</p>
+        </section>
 
-    <!--Contact Section-->
-    <section>
-        <h2 id="contact">Contact</h2>
-        <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="John Doe" required>
+        <!--Proyect Section-->
+        <section class="container">
+            <h2 id="proyects">Proyects</h2>
+            <ul id="proyects-block">
+                <li><a href="https://github.com/Envy528/Calculator">Basic Python Calculator</a></li>
+                <li><a href="https://github.com/Envy528/mi-pagina-web">My first Web Page</a></li>
+                <li><a href="https://github.com/Envy528/studentGrades_Riwi">Student's Grades Program</a></li>
+            </ul>
+        </section>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="JohnDoe@gmail.com" required>
+        <!--Contact Section-->
+        <section class="container">
+            <h2 id="contact">Contact</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
 
-            <label for="message">Reason of contact:</label><br>
-            <textarea name="message" id="message" required></textarea>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="JohnDoe@gmail.com" required>
 
-            <button type="submit">Send</button>
-        </form>
-    </section>
+                <label for="message">Reason of contact:</label><br>
+                <textarea name="message" id="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
